@@ -1,3 +1,3 @@
 # Program02-Senti
-#Hayleigh Arnold
-#hca8qp@umystem.edu
+# Hayleigh Arnold
+# hca8qp@umystem.edu
