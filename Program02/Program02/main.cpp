@@ -1,3 +1,13 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <iomanip>
+#include <sstream>
+#include <vector>
+
+using namespace std;
+
+
 #include "function.h"
 
 int main() {
@@ -21,7 +31,7 @@ int main() {
         returnVal = processReview(reviewFile, wordList, posList, negList, outputFile);
         if (returnVal == -1) {
             cerr << "Error: Failed to process review file " << reviewFile << endl;
-            return 1; // Exit with an error code
+            return 1; 
         }
     }
     outputFile.close(); // Close the output file stream

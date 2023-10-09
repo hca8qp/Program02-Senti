@@ -19,7 +19,7 @@ int readSentimentFile(vector<wordStruct>& wordList,vector<wordStruct>& posList,v
     ifstream sentimentFile("sentiment.txt");
     if (!sentimentFile.is_open()) {
         cerr << "Error: Could not open 'sentiment.txt'." << endl;
-        return -1; // Return an error code
+        return -1; 
     }
 
     string line;
